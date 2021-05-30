@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: darkgray;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+main {
+  width: 35vw;
+  background-color: whitesmoke;
+  padding: 20px;
+  margin: 30px;
+}
+h1 {
+  font-size: 20px;
+  text-align: center;
+  font-style: cursive;
+  font-weight: 400;
+  color: red;
+}
+p {
+  text-align: justify;
+}
+input, textarea {
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+main div#form-container {
+  background-color: crimson;
+  border-radius: 10px;
+  padding: 25px;
+}
+div#form-container div {
+  padding-bottom: 10px;
+}
+form {
+  width: inherit;
+}
+div.row1 {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  width: 28vw;
+  height: 50px;
+}
+div.row1 div {
+  width: 48%;
+  height: 30px;
+}
+div.row1 div input {
+  width: 100%;
+  height: inherit;
+}
+div.row2 {
+  width: 28vw;
+  height: 40px;
+}
+div.row2 input {
+  width: 100%;
+  height: inherit;
+}
+div.btn {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+
+}
+div.btn button, tr button, button.btn {
+  width: 5vw; /* on laptop width is 5vw */
+  height: 30px;
+  background-color: lime;
+  border-radius: 5px;
+  border: none;
+  color: black;
+  font-size: 12px;
+}
+#divBody {
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 5px;
+}
